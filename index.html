@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summer practice</title>
+    <script type="module" crossorigin src="assets/index-b7HHEWMC.js"></script>
+    <link rel="stylesheet" crossorigin href="assets/index-pFSSJRCe.css">
+  </head>
+  <body>
+    <nav class="nav"> 
+      <button type="button" class="nav__left"><img src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='utf-8'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width='80px'%20height='80px'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9.71069%2018.2929C10.1012%2018.6834%2010.7344%2018.6834%2011.1249%2018.2929L16.0123%2013.4006C16.7927%2012.6195%2016.7924%2011.3537%2016.0117%2010.5729L11.1213%205.68254C10.7308%205.29202%2010.0976%205.29202%209.70708%205.68254C9.31655%206.07307%209.31655%206.70623%209.70708%207.09676L13.8927%2011.2824C14.2833%2011.6729%2014.2833%2012.3061%2013.8927%2012.6966L9.71069%2016.8787C9.32016%2017.2692%209.32016%2017.9023%209.71069%2018.2929Z'%20fill='%23FFF'/%3e%3c/svg%3e" alt=""></button>
+      <div class="nav__box">
+        <a href="#" class="nav__list-el">Алгебра</a>
+        <a href="#" class="nav__list-el display-disactive">Дискретная математика</a>
+        <a href="#" class="nav__list-el display-disactive">Математический анализ</a>
+      </div>
+      <button class="nav__right" type="button"><img src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='utf-8'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width='80px'%20height='80px'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9.71069%2018.2929C10.1012%2018.6834%2010.7344%2018.6834%2011.1249%2018.2929L16.0123%2013.4006C16.7927%2012.6195%2016.7924%2011.3537%2016.0117%2010.5729L11.1213%205.68254C10.7308%205.29202%2010.0976%205.29202%209.70708%205.68254C9.31655%206.07307%209.31655%206.70623%209.70708%207.09676L13.8927%2011.2824C14.2833%2011.6729%2014.2833%2012.3061%2013.8927%2012.6966L9.71069%2016.8787C9.32016%2017.2692%209.32016%2017.9023%209.71069%2018.2929Z'%20fill='%23FFF'/%3e%3c/svg%3e" alt=""></button>
+    </nav>
+
+<!-- ----------------algebra------------ -->
+    
+    <main class="main">
+      <section class="algebra">
+        <div class="algebra__container">
+          <div class="algebra__matrix">
+            <div class="algebra__matrix-first">
+              <ol class="algebra__matrix-str">
+                <input type="number" value="" placeholder="0">
+                <input type="number" value="" placeholder="0">
+                <input type="number" value="" placeholder="0">
+              </ol>
+              <ol class="algebra__matrix-str">
+                <input type="number" value="" placeholder="0">
+                <input type="number" value="" placeholder="0">
+                <input type="number" value="" placeholder="0">
+              </ol>
+              <ol class="algebra__matrix-str">
+                <input type="number" value="" placeholder="0">
+                <input type="number" value="" placeholder="0">
+                <input type="number" value="" placeholder="0">
+              </ol>
+            </div>
+            <div class="algebra__matrix-second"></div>
+          </div>
+          <div class="algebra__control control-al">
+            <button type="button" class="control-al__start">Start</button>
+            <div class="control-al__size">
+              <input type="number" placeholder="N" value="3" max="10" min="2" class="control-al__size-box">
+            </div>
+            <button type="button" class="control-al__reset">Reset</button>
+          </div>
+      </section>
+
+<!-- ----------------DM------------------ -->
+
+      <section class="dm display-disactive">
+        <div class="dm__container">
+          <h2 class="dm__title">Сочетания из N по M</h2>
+          <div class="dm__control">
+            <button type="button" class="dm__reset">RESET</button>
+            <input type="number" class="dm__n" placeholder="N" max="10" min="1">
+            <input type="number" class="dm__m" placeholder="M" max="10" min="1">
+            <button type="button" class="dm__start">START</button>
+          </div>
+          <div class="dm__out">
+            <div class="dm__out-content"></div>
+          </div>
+        </div>
+      </section>
+
+<!-- ----------------MA------------------ -->
+      
+      <section class="ma display-disactive">
+        <div class="ma__container">
+          <h2 class="ma__title">Проверка на существование предела</h2>
+          <div class="ma__box">
+            <div class="ma__lim-con">
+              <h4 class="ma__limit">lim</h4>
+              <div class="ma__var"><p>x</p><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2025%2025'%3e%3ctitle%3eArtboard-34%3c/title%3e%3cg%20id='Right-2'%20data-name='Right'%3e%3cpolygon%20points='17.5%205.999%2016.793%206.706%2022.086%2011.999%201%2011.999%201%2012.999%2022.086%2012.999%2016.792%2018.294%2017.499%2019.001%2024%2012.499%2017.5%205.999'%20style='fill:%23232326'/%3e%3c/g%3e%3c/svg%3e" alt="">
+                <select name="lim" id="lim">
+                  <option value="plus">+&#8734;</option>
+                  <option value="minus">-&#8734;</option>
+                </select>
+              </div>
+            </div>
+            <select name="func" id="func" class="ma__func">
+              <option value="lin">(1-sin(x))^x</option>
+              <option value="exp">e^x</option>
+              <option value="log">log(x)</option>
+              <option value="cos">cos(x)</option>
+              <option value="sin">sin(x)</option>
+              <option value="arccos">arccos(x)</option>
+              <option value="arcsin">arcsin(x)</option>
+              <option value="hlog">log(1-1/x)+1/x</option>
+              <option value="hstep">(2*x^5)/(6*x^5)</option>
+              <option value="trash">(log(x)/x^5)-(1/5*x^5)</option>
+            </select>
+            <p class="ma__ans"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="src/js/all.min.js"></script>
+  </body>
+</html>
